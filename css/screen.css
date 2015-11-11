@@ -190,67 +190,67 @@ a, a:hover, a:visited {
   text-align: center;
 }
 
-/* line 21, ../sass/_content/_sections.scss */
+/* line 38, ../sass/_content/_sections.scss */
 .repair {
-  background: transparent url("../img/repair/repair-bg.jpg") no-repeat 0 0;
+  background: transparent url("../img/repair/repair-bg.jpg") no-repeat 0 1px;
   height: 811px;
 }
-/* line 25, ../sass/_content/_sections.scss */
+/* line 42, ../sass/_content/_sections.scss */
 .repair .content {
   margin-bottom: 20px;
 }
-/* line 26, ../sass/_content/_sections.scss */
+/* line 43, ../sass/_content/_sections.scss */
 .repair header {
   height: 140px;
   padding-top: 30px;
   text-align: center;
 }
-/* line 30, ../sass/_content/_sections.scss */
+/* line 47, ../sass/_content/_sections.scss */
 .repair header span {
   display: block;
   font-size: 48px;
 }
-/* line 36, ../sass/_content/_sections.scss */
+/* line 53, ../sass/_content/_sections.scss */
 .repair .grid > div {
   width: 310px;
   height: 280px;
   margin-bottom: 26px;
 }
-/* line 40, ../sass/_content/_sections.scss */
+/* line 57, ../sass/_content/_sections.scss */
 .repair .grid > div:nth-child(1), .repair .grid > div:nth-child(2) {
   margin-right: 10px;
 }
-/* line 44, ../sass/_content/_sections.scss */
+/* line 61, ../sass/_content/_sections.scss */
 .repair div .repair-img {
   width: 310px;
   height: 215px;
   padding-top: 20px;
 }
-/* line 49, ../sass/_content/_sections.scss */
+/* line 66, ../sass/_content/_sections.scss */
 .repair div.hauling {
   background: transparent url("../img/repair/hauling.png") no-repeat 60% -151%;
 }
-/* line 52, ../sass/_content/_sections.scss */
+/* line 69, ../sass/_content/_sections.scss */
 .repair div.reinforcement {
   background: transparent url("../img/repair/reinforcement.png") no-repeat 60% -151%;
 }
-/* line 55, ../sass/_content/_sections.scss */
+/* line 72, ../sass/_content/_sections.scss */
 .repair div.transformation {
   background: transparent url("../img/repair/transformation.png") no-repeat 60% -151%;
 }
-/* line 58, ../sass/_content/_sections.scss */
+/* line 75, ../sass/_content/_sections.scss */
 .repair div.mechanisms {
   background: transparent url("../img/repair/mechanisms.png") no-repeat 60% -151%;
 }
-/* line 61, ../sass/_content/_sections.scss */
+/* line 78, ../sass/_content/_sections.scss */
 .repair div.fillers {
   background: transparent url("../img/repair/fillers.png") no-repeat 60% -151%;
 }
-/* line 64, ../sass/_content/_sections.scss */
+/* line 81, ../sass/_content/_sections.scss */
 .repair div.order {
   background: transparent url("../img/repair/order.png") no-repeat 60% -151%;
 }
-/* line 69, ../sass/_content/_sections.scss */
+/* line 86, ../sass/_content/_sections.scss */
 .repair .repair-btn {
   margin: 60px;
   width: 190px;
@@ -264,17 +264,17 @@ a, a:hover, a:visited {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 77, ../sass/_content/_sections.scss */
+/* line 94, ../sass/_content/_sections.scss */
 .repair .repair-btn:hover {
   opacity: .4;
 }
-/* line 78, ../sass/_content/_sections.scss */
+/* line 95, ../sass/_content/_sections.scss */
 .repair .repair-btn a {
   display: block;
   padding: 12px;
   vertical-align: middle;
 }
-/* line 84, ../sass/_content/_sections.scss */
+/* line 101, ../sass/_content/_sections.scss */
 .repair .btn-sign-in {
   text-align: center;
   background-color: #ff8400;
@@ -284,14 +284,95 @@ a, a:hover, a:visited {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 89, ../sass/_content/_sections.scss */
+/* line 106, ../sass/_content/_sections.scss */
 .repair .btn-sign-in:hover {
   opacity: .7;
 }
-/* line 90, ../sass/_content/_sections.scss */
+/* line 107, ../sass/_content/_sections.scss */
 .repair .btn-sign-in a {
   display: block;
   height: 35px;
   padding-top: 20px;
+  font-size: 16px;
+}
+
+/* line 122, ../sass/_content/_sections.scss */
+.delivery {
+  height: 272px;
+  padding-top: 20px;
+  background: transparent url("../img/delivery/delivery-bg.png") no-repeat 46% 0;
+}
+/* line 126, ../sass/_content/_sections.scss */
+.delivery h3 {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+/* line 131, ../sass/_content/_sections.scss */
+.delivery .do-order {
+  margin-top: 20px;
+  width: 530px;
+  height: 152px;
+  background: transparent url("../img/delivery/do-order-border.png") no-repeat 0 0;
+}
+/* line 136, ../sass/_content/_sections.scss */
+.delivery .do-order span {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+}
+/* line 140, ../sass/_content/_sections.scss */
+.delivery .do-order span.date-to {
+  padding-top: 20px;
+  font-weight: 600;
+}
+/* line 145, ../sass/_content/_sections.scss */
+.delivery .do-order .phone-btn {
+  display: inline-block;
+  width: 230px;
+  margin: 15px -22px 8px 30px;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 30, ../sass/_content/_sections.scss */
+.delivery .do-order .phone-btn:hover {
+  opacity: .4;
+}
+/* line 31, ../sass/_content/_sections.scss */
+.delivery .do-order .phone-btn a {
+  display: block;
+  height: 31px;
+  padding-top: 14px;
+  font-size: 16px;
+}
+/* line 149, ../sass/_content/_sections.scss */
+.delivery .do-order .btn {
+  display: inline-block;
+  width: 230px;
+  margin: 15px -22px 8px 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff8400;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 30, ../sass/_content/_sections.scss */
+.delivery .do-order .btn:hover {
+  opacity: .4;
+}
+/* line 31, ../sass/_content/_sections.scss */
+.delivery .do-order .btn a {
+  display: block;
+  height: 31px;
+  padding-top: 14px;
   font-size: 16px;
 }
