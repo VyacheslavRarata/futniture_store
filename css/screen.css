@@ -1,0 +1,220 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_header/_header.scss */
+h1 {
+  display: none;
+}
+
+/* line 2, ../sass/_header/_header.scss */
+h2 {
+  display: none;
+}
+
+/* line 3, ../sass/_header/_header.scss */
+body {
+  background: gray;
+}
+
+/* line 2, ../sass/_content/_style.scss */
+.left {
+  float: left;
+}
+
+/* line 3, ../sass/_content/_style.scss */
+.right {
+  float: right;
+}
+
+/* line 4, ../sass/_content/_style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 5, ../sass/_content/_style.scss */
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 9, ../sass/_header/_header.scss */
+.content {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 5px;
+  color: #fff;
+}
+
+/* line 16, ../sass/_header/_header.scss */
+#wrapper > header {
+  background: transparent url("../img/header-bg.png") no-repeat scroll 39% 0%;
+}
+/* line 18, ../sass/_header/_header.scss */
+#wrapper > header .top {
+  height: 105px;
+}
+/* line 23, ../sass/_header/_header.scss */
+#wrapper > header .bot {
+  height: 680px;
+}
+
+/* line 31, ../sass/_header/_header.scss */
+.head {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 640px;
+  text-align: center;
+}
+/* line 36, ../sass/_header/_header.scss */
+.head p {
+  font-size: 16px;
+}
+/* line 39, ../sass/_header/_header.scss */
+.head h3 {
+  font: 26px bold sans-serif;
+}
+
+/* line 43, ../sass/_header/_header.scss */
+.call-me {
+  width: 187px;
+}
+/* line 45, ../sass/_header/_header.scss */
+.call-me .phone {
+  margin-bottom: 2px;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+/* line 50, ../sass/_header/_header.scss */
+.call-me .btn {
+  height: 35px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  font-size: 21px;
+  background-color: #ff8400;
+  border-radius: 7px;
+}
+/* line 61, ../sass/_header/_header.scss */
+.call-me .btn:hover {
+  background-color: #FF1701;
+}
+/* line 65, ../sass/_header/_header.scss */
+.call-me .btn a {
+  display: block;
+  padding: 5px 15px;
+}
+/* line 70, ../sass/_header/_header.scss */
+.call-me .work-time {
+  font-size: 16px;
+}
+
+/* line 74, ../sass/_header/_header.scss */
+.head-slider {
+  height: 790px;
+  padding: 90px 100px;
+  font-size: 60px;
+  text-align: center;
+}
+
+/* line 8, ../sass/_content/_sections.scss */
+.repair {
+  background-color: #4f555c;
+  height: 811px;
+}
+/* line 11, ../sass/_content/_sections.scss */
+.repair .content {
+  margin-bottom: 20px;
+}
+/* line 12, ../sass/_content/_sections.scss */
+.repair header {
+  height: 140px;
+  padding-top: 30px;
+  text-align: center;
+}
+/* line 16, ../sass/_content/_sections.scss */
+.repair header span {
+  display: block;
+  font-size: 48px;
+}
+/* line 22, ../sass/_content/_sections.scss */
+.repair .grid > div {
+  width: 310px;
+  height: 280px;
+  margin-bottom: 26px;
+  background-color: #ff8400;
+}
+/* line 27, ../sass/_content/_sections.scss */
+.repair .grid > div:nth-child(1), .repair .grid > div:nth-child(2) {
+  margin-right: 10px;
+}
+/* line 30, ../sass/_content/_sections.scss */
+.repair .peretagka {
+  width: 310px;
+  height: 218px;
+  background: transparent url("../img/repair/peretagka.png") no-repeat 54% 51%;
+}
