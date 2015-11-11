@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link href="css/screen.css" rel="stylesheet">
+    <link href="vendor/carousel/assets/owl.carousel.css" rel="stylesheet">
+    <link href="vendor/carousel/assets/owl.theme.default.min.css" rel="stylesheet">
+
 </head>
 <body>
 <h1>Root Content</h1>
@@ -32,11 +35,105 @@
                     <h3>Сделайте свою мебель такой, какой хотите видеть ее Вы!</h3>
                 </div>
                 <div class="slider">
+                    <!--<div class="owl-carousel">-->
+                        <!--<div class="item">-->
+                            <!--<h4>1</h4>-->
+                        <!--</div>-->
+                        <!--<div class="item">-->
+                            <!--<h4>2</h4>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <div id="owl-demo" class="owl-carousel owl-theme" data-wow-delay="0.4s">
+                        <div class="owl-item"><a href="img/repair/fillers.png" class="fancybox-modal" rel="gal"><img src="img/repair/fillers.png" alt=""></a></div>
+                        <div class="owl-item"><a href="img/repair/mechanisms.png" class="fancybox-modal" rel="gal"><img src="img/repair/mechanisms.png" alt=""></a></div>
+                        <div class="owl-item"><a href="img/repair/reinforcement.png" class="fancybox-modal" rel="gal"><img src="img/repair/reinforcement.png" alt=""></a></div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-
+    <main>
+        <section class="repair">
+            <div class="content">
+                <header>
+                    <span>Мы предлагаем полный спектр услуг</span>
+                    <span>по ремонту Вашей мебели</span>
+                </header>
+                <section class="grid clear">
+                    <div class="left">
+                        <div class="hauling repair-img">
+                            <div class="repair-btn">
+                                <a href="javascript:void(0);">Перетяжка мебели</a>
+                            </div>
+                        </div>
+                        <div class="btn-sign-in">
+                            <a href="javascript:void(0);">Записаться сейчас</a>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="reinforcement repair-img">
+                            <div class="repair-btn">
+                                <a href="javascript:void(0);">Ремонт, усиление
+                                    каркаса</a>
+                            </div>
+                        </div>
+                        <div class="btn-sign-in">
+                            <a href="javascript:void(0);">Записаться сейчас</a>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="transformation repair-img">
+                            <div class="repair-btn">
+                                <a href="javascript:void(0);">Установка механизмов
+                                    трансформации</a>
+                            </div>
+                        </div>
+                        <div class="btn-sign-in">
+                            <a href="javascript:void(0);">Записаться сейчас</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="grid clear">
+                    <div class="left">
+                        <div class="mechanisms repair-img">
+                            <div class="repair-btn">
+                                <a href="javascript:void(0);">Замена
+                                    механизмов</a>
+                            </div>
+                        </div>
+                        <div class="btn-sign-in">
+                            <a href="javascript:void(0);">Записаться сейчас</a>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="fillers repair-img">
+                            <div class="repair-btn">
+                                <a href="javascript:void(0);">Замена
+                                    наполнителей</a>
+                            </div>
+                        </div>
+                        <div class="btn-sign-in">
+                            <a href="javascript:void(0);">Записаться сейчас</a>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="order repair-img">
+                            <div class="repair-btn">
+                                <a href="javascript:void(0);">Мебель на заказ
+                                    по эскизу</a>
+                            </div>
+                        </div>
+                        <div class="btn-sign-in">
+                            <a href="javascript:void(0);">Записаться сейчас</a>
+                        </div>
+                </section>
+            </div>
+        </section>
+    </main>
 </div>
+<script src="vendor/carousel/owl.carousel.min.js"></script>
+<script src="vendor/jquery/jquery-1.11.3.min.js"></script>
+<!--<script src="js/javascript.js"></script>-->
+<script src="js/app.js"></script>
 </body>
 </html>

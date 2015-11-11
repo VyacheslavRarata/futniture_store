@@ -113,7 +113,7 @@ a, a:hover, a:visited {
 
 /* line 16, ../sass/_header/_header.scss */
 #wrapper > header {
-  background: transparent url("../img/header-bg.png") no-repeat scroll 39% 0%;
+  background: transparent url("../img/header-bg.png") no-repeat scroll 50% 0%;
 }
 /* line 18, ../sass/_header/_header.scss */
 #wrapper > header .top {
@@ -123,98 +123,175 @@ a, a:hover, a:visited {
 #wrapper > header .bot {
   height: 680px;
 }
+/* line 26, ../sass/_header/_header.scss */
+#wrapper > header .bot .item {
+  height: 10rem;
+  background: #4DC7A0;
+  padding: 1rem;
+}
 
-/* line 31, ../sass/_header/_header.scss */
+/* line 36, ../sass/_header/_header.scss */
 .head {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 640px;
   text-align: center;
 }
-/* line 36, ../sass/_header/_header.scss */
+/* line 41, ../sass/_header/_header.scss */
 .head p {
   font-size: 16px;
 }
-/* line 39, ../sass/_header/_header.scss */
+/* line 44, ../sass/_header/_header.scss */
 .head h3 {
   font: 26px bold sans-serif;
 }
 
-/* line 43, ../sass/_header/_header.scss */
+/* line 48, ../sass/_header/_header.scss */
 .call-me {
   width: 187px;
 }
-/* line 45, ../sass/_header/_header.scss */
+/* line 50, ../sass/_header/_header.scss */
 .call-me .phone {
   margin-bottom: 2px;
   font-size: 23px;
   text-transform: uppercase;
 }
-/* line 50, ../sass/_header/_header.scss */
+/* line 55, ../sass/_header/_header.scss */
 .call-me .btn {
   height: 35px;
   margin-top: 8px;
   margin-bottom: 3px;
   font-size: 21px;
   background-color: #ff8400;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
   border-radius: 7px;
 }
-/* line 61, ../sass/_header/_header.scss */
+/* line 66, ../sass/_header/_header.scss */
 .call-me .btn:hover {
   background-color: #FF1701;
 }
-/* line 65, ../sass/_header/_header.scss */
+/* line 67, ../sass/_header/_header.scss */
 .call-me .btn a {
   display: block;
   padding: 5px 15px;
 }
-/* line 70, ../sass/_header/_header.scss */
+/* line 72, ../sass/_header/_header.scss */
 .call-me .work-time {
   font-size: 16px;
 }
 
-/* line 74, ../sass/_header/_header.scss */
+/* line 76, ../sass/_header/_header.scss */
 .head-slider {
-  height: 790px;
   padding: 90px 100px;
   font-size: 60px;
   text-align: center;
 }
 
-/* line 8, ../sass/_content/_sections.scss */
+/* line 21, ../sass/_content/_sections.scss */
 .repair {
-  background-color: #4f555c;
+  background: transparent url("../img/repair/repair-bg.jpg") no-repeat 0 0;
   height: 811px;
 }
-/* line 11, ../sass/_content/_sections.scss */
+/* line 25, ../sass/_content/_sections.scss */
 .repair .content {
   margin-bottom: 20px;
 }
-/* line 12, ../sass/_content/_sections.scss */
+/* line 26, ../sass/_content/_sections.scss */
 .repair header {
   height: 140px;
   padding-top: 30px;
   text-align: center;
 }
-/* line 16, ../sass/_content/_sections.scss */
+/* line 30, ../sass/_content/_sections.scss */
 .repair header span {
   display: block;
   font-size: 48px;
 }
-/* line 22, ../sass/_content/_sections.scss */
+/* line 36, ../sass/_content/_sections.scss */
 .repair .grid > div {
   width: 310px;
   height: 280px;
   margin-bottom: 26px;
-  background-color: #ff8400;
 }
-/* line 27, ../sass/_content/_sections.scss */
+/* line 40, ../sass/_content/_sections.scss */
 .repair .grid > div:nth-child(1), .repair .grid > div:nth-child(2) {
   margin-right: 10px;
 }
-/* line 30, ../sass/_content/_sections.scss */
-.repair .peretagka {
+/* line 44, ../sass/_content/_sections.scss */
+.repair div .repair-img {
   width: 310px;
-  height: 218px;
-  background: transparent url("../img/repair/peretagka.png") no-repeat 54% 51%;
+  height: 215px;
+  padding-top: 20px;
+}
+/* line 49, ../sass/_content/_sections.scss */
+.repair div.hauling {
+  background: transparent url("../img/repair/hauling.png") no-repeat 60% -151%;
+}
+/* line 52, ../sass/_content/_sections.scss */
+.repair div.reinforcement {
+  background: transparent url("../img/repair/reinforcement.png") no-repeat 60% -151%;
+}
+/* line 55, ../sass/_content/_sections.scss */
+.repair div.transformation {
+  background: transparent url("../img/repair/transformation.png") no-repeat 60% -151%;
+}
+/* line 58, ../sass/_content/_sections.scss */
+.repair div.mechanisms {
+  background: transparent url("../img/repair/mechanisms.png") no-repeat 60% -151%;
+}
+/* line 61, ../sass/_content/_sections.scss */
+.repair div.fillers {
+  background: transparent url("../img/repair/fillers.png") no-repeat 60% -151%;
+}
+/* line 64, ../sass/_content/_sections.scss */
+.repair div.order {
+  background: transparent url("../img/repair/order.png") no-repeat 60% -151%;
+}
+/* line 69, ../sass/_content/_sections.scss */
+.repair .repair-btn {
+  margin: 60px;
+  width: 190px;
+  height: 52px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px dashed #fff;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 77, ../sass/_content/_sections.scss */
+.repair .repair-btn:hover {
+  opacity: .4;
+}
+/* line 78, ../sass/_content/_sections.scss */
+.repair .repair-btn a {
+  display: block;
+  padding: 12px;
+  vertical-align: middle;
+}
+/* line 84, ../sass/_content/_sections.scss */
+.repair .btn-sign-in {
+  text-align: center;
+  background-color: #ff8400;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 89, ../sass/_content/_sections.scss */
+.repair .btn-sign-in:hover {
+  opacity: .7;
+}
+/* line 90, ../sass/_content/_sections.scss */
+.repair .btn-sign-in a {
+  display: block;
+  height: 35px;
+  padding-top: 20px;
+  font-size: 16px;
 }
