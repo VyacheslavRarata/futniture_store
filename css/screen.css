@@ -103,7 +103,13 @@ a, a:hover, a:visited {
   color: inherit;
 }
 
-/* line 9, ../sass/_header/_header.scss */
+/* line 6, ../sass/_header/_header.scss */
+#wrapper {
+  margin: 0 auto;
+  width: 1900px;
+}
+
+/* line 13, ../sass/_header/_header.scss */
 .content {
   width: 960px;
   margin: 0 auto;
@@ -111,52 +117,52 @@ a, a:hover, a:visited {
   color: #fff;
 }
 
-/* line 16, ../sass/_header/_header.scss */
+/* line 20, ../sass/_header/_header.scss */
 #wrapper > header {
   background: transparent url("../img/header-bg.png") no-repeat scroll 50% 0%;
 }
-/* line 18, ../sass/_header/_header.scss */
+/* line 22, ../sass/_header/_header.scss */
 #wrapper > header .top {
   height: 105px;
 }
-/* line 23, ../sass/_header/_header.scss */
+/* line 27, ../sass/_header/_header.scss */
 #wrapper > header .bot {
   height: 680px;
 }
-/* line 26, ../sass/_header/_header.scss */
+/* line 30, ../sass/_header/_header.scss */
 #wrapper > header .bot .item {
   height: 10rem;
   background: #4DC7A0;
   padding: 1rem;
 }
 
-/* line 36, ../sass/_header/_header.scss */
+/* line 40, ../sass/_header/_header.scss */
 .head {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 640px;
   text-align: center;
 }
-/* line 41, ../sass/_header/_header.scss */
+/* line 45, ../sass/_header/_header.scss */
 .head p {
   font-size: 16px;
 }
-/* line 44, ../sass/_header/_header.scss */
+/* line 48, ../sass/_header/_header.scss */
 .head h3 {
   font: 26px bold sans-serif;
 }
 
-/* line 48, ../sass/_header/_header.scss */
+/* line 52, ../sass/_header/_header.scss */
 .call-me {
   width: 187px;
 }
-/* line 50, ../sass/_header/_header.scss */
+/* line 54, ../sass/_header/_header.scss */
 .call-me .phone {
   margin-bottom: 2px;
   font-size: 23px;
   text-transform: uppercase;
 }
-/* line 55, ../sass/_header/_header.scss */
+/* line 59, ../sass/_header/_header.scss */
 .call-me .btn {
   height: 35px;
   margin-top: 8px;
@@ -169,88 +175,88 @@ a, a:hover, a:visited {
   -o-border-radius: 7px;
   border-radius: 7px;
 }
-/* line 66, ../sass/_header/_header.scss */
+/* line 70, ../sass/_header/_header.scss */
 .call-me .btn:hover {
   background-color: #FF1701;
 }
-/* line 67, ../sass/_header/_header.scss */
+/* line 71, ../sass/_header/_header.scss */
 .call-me .btn a {
   display: block;
   padding: 5px 15px;
 }
-/* line 72, ../sass/_header/_header.scss */
+/* line 76, ../sass/_header/_header.scss */
 .call-me .work-time {
   font-size: 16px;
 }
 
-/* line 76, ../sass/_header/_header.scss */
+/* line 80, ../sass/_header/_header.scss */
 .head-slider {
   padding: 90px 100px;
   font-size: 60px;
   text-align: center;
 }
 
-/* line 38, ../sass/_content/_sections.scss */
+/* line 41, ../sass/_content/_sections.scss */
 .repair {
   background: transparent url("../img/repair/repair-bg.jpg") no-repeat 0 1px;
   height: 811px;
 }
-/* line 42, ../sass/_content/_sections.scss */
+/* line 45, ../sass/_content/_sections.scss */
 .repair .content {
   margin-bottom: 20px;
 }
-/* line 43, ../sass/_content/_sections.scss */
+/* line 46, ../sass/_content/_sections.scss */
 .repair header {
   height: 140px;
   padding-top: 30px;
   text-align: center;
 }
-/* line 47, ../sass/_content/_sections.scss */
+/* line 50, ../sass/_content/_sections.scss */
 .repair header span {
   display: block;
   font-size: 48px;
 }
-/* line 53, ../sass/_content/_sections.scss */
+/* line 56, ../sass/_content/_sections.scss */
 .repair .grid > div {
   width: 310px;
   height: 280px;
   margin-bottom: 26px;
 }
-/* line 57, ../sass/_content/_sections.scss */
+/* line 60, ../sass/_content/_sections.scss */
 .repair .grid > div:nth-child(1), .repair .grid > div:nth-child(2) {
   margin-right: 10px;
 }
-/* line 61, ../sass/_content/_sections.scss */
+/* line 64, ../sass/_content/_sections.scss */
 .repair div .repair-img {
   width: 310px;
   height: 215px;
   padding-top: 20px;
 }
-/* line 66, ../sass/_content/_sections.scss */
+/* line 69, ../sass/_content/_sections.scss */
 .repair div.hauling {
   background: transparent url("../img/repair/hauling.png") no-repeat 60% -151%;
 }
-/* line 69, ../sass/_content/_sections.scss */
+/* line 72, ../sass/_content/_sections.scss */
 .repair div.reinforcement {
   background: transparent url("../img/repair/reinforcement.png") no-repeat 60% -151%;
 }
-/* line 72, ../sass/_content/_sections.scss */
+/* line 75, ../sass/_content/_sections.scss */
 .repair div.transformation {
   background: transparent url("../img/repair/transformation.png") no-repeat 60% -151%;
 }
-/* line 75, ../sass/_content/_sections.scss */
+/* line 78, ../sass/_content/_sections.scss */
 .repair div.mechanisms {
   background: transparent url("../img/repair/mechanisms.png") no-repeat 60% -151%;
 }
-/* line 78, ../sass/_content/_sections.scss */
+/* line 81, ../sass/_content/_sections.scss */
 .repair div.fillers {
   background: transparent url("../img/repair/fillers.png") no-repeat 60% -151%;
 }
-/* line 81, ../sass/_content/_sections.scss */
+/* line 84, ../sass/_content/_sections.scss */
 .repair div.order {
   background: transparent url("../img/repair/order.png") no-repeat 60% -151%;
 }
-/* line 86, ../sass/_content/_sections.scss */
+/* line 89, ../sass/_content/_sections.scss */
 .repair .repair-btn {
   margin: 60px;
   width: 190px;
@@ -264,17 +270,17 @@ a, a:hover, a:visited {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 94, ../sass/_content/_sections.scss */
+/* line 97, ../sass/_content/_sections.scss */
 .repair .repair-btn:hover {
   opacity: .4;
 }
-/* line 95, ../sass/_content/_sections.scss */
+/* line 98, ../sass/_content/_sections.scss */
 .repair .repair-btn a {
   display: block;
   padding: 12px;
   vertical-align: middle;
 }
-/* line 101, ../sass/_content/_sections.scss */
+/* line 104, ../sass/_content/_sections.scss */
 .repair .btn-sign-in {
   text-align: center;
   background-color: #ff8400;
@@ -284,11 +290,11 @@ a, a:hover, a:visited {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 106, ../sass/_content/_sections.scss */
+/* line 109, ../sass/_content/_sections.scss */
 .repair .btn-sign-in:hover {
   opacity: .7;
 }
-/* line 107, ../sass/_content/_sections.scss */
+/* line 110, ../sass/_content/_sections.scss */
 .repair .btn-sign-in a {
   display: block;
   height: 35px;
@@ -296,37 +302,37 @@ a, a:hover, a:visited {
   font-size: 16px;
 }
 
-/* line 122, ../sass/_content/_sections.scss */
+/* line 125, ../sass/_content/_sections.scss */
 .delivery {
-  height: 272px;
+  height: 260px;
   padding-top: 20px;
   background: transparent url("../img/delivery/delivery-bg.png") no-repeat 46% 0;
 }
-/* line 126, ../sass/_content/_sections.scss */
+/* line 129, ../sass/_content/_sections.scss */
 .delivery h3 {
   font-size: 48px;
   color: #fff;
   text-align: center;
 }
-/* line 131, ../sass/_content/_sections.scss */
+/* line 134, ../sass/_content/_sections.scss */
 .delivery .do-order {
   margin-top: 20px;
   width: 530px;
   height: 152px;
   background: transparent url("../img/delivery/do-order-border.png") no-repeat 0 0;
 }
-/* line 136, ../sass/_content/_sections.scss */
+/* line 139, ../sass/_content/_sections.scss */
 .delivery .do-order span {
   display: block;
   font-size: 24px;
   text-align: center;
 }
-/* line 140, ../sass/_content/_sections.scss */
+/* line 143, ../sass/_content/_sections.scss */
 .delivery .do-order span.date-to {
   padding-top: 20px;
   font-weight: 600;
 }
-/* line 145, ../sass/_content/_sections.scss */
+/* line 148, ../sass/_content/_sections.scss */
 .delivery .do-order .phone-btn {
   display: inline-block;
   width: 230px;
@@ -340,18 +346,18 @@ a, a:hover, a:visited {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 30, ../sass/_content/_sections.scss */
+/* line 33, ../sass/_content/_sections.scss */
 .delivery .do-order .phone-btn:hover {
   opacity: .4;
 }
-/* line 31, ../sass/_content/_sections.scss */
+/* line 34, ../sass/_content/_sections.scss */
 .delivery .do-order .phone-btn a {
   display: block;
   height: 31px;
   padding-top: 14px;
   font-size: 16px;
 }
-/* line 149, ../sass/_content/_sections.scss */
+/* line 152, ../sass/_content/_sections.scss */
 .delivery .do-order .btn {
   display: inline-block;
   width: 230px;
@@ -365,14 +371,101 @@ a, a:hover, a:visited {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 30, ../sass/_content/_sections.scss */
+/* line 33, ../sass/_content/_sections.scss */
 .delivery .do-order .btn:hover {
   opacity: .4;
 }
-/* line 31, ../sass/_content/_sections.scss */
+/* line 34, ../sass/_content/_sections.scss */
 .delivery .do-order .btn a {
   display: block;
   height: 31px;
   padding-top: 14px;
   font-size: 16px;
+}
+
+/* line 159, ../sass/_content/_sections.scss */
+.orders {
+  background-color: #010913;
+  height: 567px;
+  padding-top: 50px;
+}
+/* line 163, ../sass/_content/_sections.scss */
+.orders h3 {
+  font: 30px bold;
+  text-align: center;
+}
+/* line 167, ../sass/_content/_sections.scss */
+.orders .grid-4 {
+  height: 170px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+/* line 172, ../sass/_content/_sections.scss */
+.orders .grid-3 {
+  height: 170px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-bottom: 50px;
+}
+/* line 177, ../sass/_content/_sections.scss */
+.orders .grid-3 span {
+  display: block;
+  width: 175px;
+  margin: 0 auto;
+}
+/* line 183, ../sass/_content/_sections.scss */
+.orders .icon {
+  width: 240px;
+  height: 185px;
+  text-align: center;
+  font-size: 16px;
+}
+/* line 190, ../sass/_content/_sections.scss */
+.orders .icon-1 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat 0 0;
+}
+/* line 196, ../sass/_content/_sections.scss */
+.orders .icon-2 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat -137px 0;
+}
+/* line 202, ../sass/_content/_sections.scss */
+.orders .icon-3 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat -137px 0;
+}
+/* line 208, ../sass/_content/_sections.scss */
+.orders .icon-4 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat -280px 0;
+}
+/* line 214, ../sass/_content/_sections.scss */
+.orders .icon-5 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat -421px 0;
+}
+/* line 220, ../sass/_content/_sections.scss */
+.orders .icon-6 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat -568px 0;
+}
+/* line 226, ../sass/_content/_sections.scss */
+.orders .icon-7 {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  background: transparent url("../img/icon-sprite.png") no-repeat -705px 0;
 }
